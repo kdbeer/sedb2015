@@ -1,0 +1,183 @@
+.get_reservelist_wrapper {
+	width: 100%;
+	background-color: #000;
+	font-family: prakatFd;
+}
+
+.get_reservelist_wrapper .left_side {
+	width: 35%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	height: 100vh;
+}
+
+.get_reservelist_wrapper .left_side .descript_txt {
+	text-align: center;
+	margin-top: 10px;
+	font-size: .75em;
+}
+
+.descript_txt i {
+	color: red;
+	text-decoration: double;
+}
+
+
+.get_reservelist_wrapper .left_side .calendar {
+	width: 100%;
+	margin: 0px auto;
+	box-shadow: 0px 4px 8px #ccc;
+	font-family: prakatBold;
+	font-size: 20px;
+}
+
+.calendar .calendar_header {
+	width: 100%;
+	height: 80px;
+	background-color: #5CD8CF;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+
+.calendar_header .left_arrow {
+	width: 15%;
+	float: left;
+	padding-top: 30px;
+	height: 50px;
+}
+
+.calendar_header .left_arrow:hover {
+	background-color: #176963;
+	transition:0.2s;
+	cursor: pointer;
+}
+
+.calendar_header .show_date {
+	width: 70%;
+	float: left;
+	text-align: center;
+	margin-top: 28px;
+	color : #fefefe;
+
+}
+
+.calendar_header .right_arrow {
+	width: 15%;
+	float: left;
+	padding-top: 30px;
+	padding-top: 30px;
+	height: 50px;
+}
+
+.calendar_header .right_arrow:hover {
+	background-color: #176963;
+	transition:0.2s;
+	cursor: pointer
+}
+
+/*###########################*/
+/*#########right side########*/
+/*###########################*/
+
+.get_reservelist_wrapper .right_side {
+	width: 60%;
+	height: 100vh;
+	float: left;
+	margin: 0px auto;
+}
+
+/*###########################*/
+/* Making card on right side */
+/*###########################*/
+
+.get_reservelist_wrapper .right_side .card {
+	width: 93%;
+	height: auto;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.right_side .card .cards {
+	width: 90%;
+	height: auto;
+	background-color: #F5F5F5;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 5px #DCDCDC;
+	transition:0.3s;
+}
+
+.card .header_calendar {
+	width: 90%;
+	margin: 0px auto;
+	background-color: #F17062;
+	padding: 8px 0px 2px 10px;
+	color: #fff;
+	border-radius: 6px;
+}
+
+.right_side .card .cards .left {
+	width: 35%;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #DCDCDC;
+	color: rgb(100, 100, 100);
+	font-size: 0.9em;
+	color: rgb(135, 135, 135);
+}
+
+.card .cards .left .frame {
+	padding: 3px 6px 3px 6px;
+	background-color: #F5F5F5;
+	width: 50%;
+	margin: 0px auto;
+	box-shadow: 0px 0px 5px #DCDCDC;
+	margin-bottom: 5px;
+}
+
+.cards .left  .house_id, .cards .left  .reserve_id {
+	font-size: 0.8em;
+}
+
+.card .cards .left img {
+	width: 100%;
+	height: auto;
+	border-radius: 60px;
+	box-shadow: 0px 1px 3px #ccc;
+}
+
+.right_side .card .cards .right {
+	width: 60%;
+	float: left;
+	font-size: 0.75em;
+}
+
+.right_side .card .cards .clear {
+	clear: both;
+}
+
+.right_side .card .cards table {
+	padding: 15px;
+	width: 85%;
+	margin: 0px auto;
+	color: rgb(135, 135, 135);
+}
+
+.card .cards table .tag {
+	font-weight: bold;
+	font-size: 0.1;
+}
+
+td {
+	padding: 2px;
+}
+
+.card .cards table .dates {
+	color: orange;
+	font-family: prakatFdBold;
+}
